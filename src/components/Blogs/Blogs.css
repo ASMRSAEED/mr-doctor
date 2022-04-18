@@ -11,23 +11,32 @@
 .questions{
     margin: 20px 50px 20px 50px;
 }
+
 .question-1{
     margin-top: 25px;
     margin-bottom: 15px;
     border-radius: 10px;
-    padding: 10px;
+    padding:15px 10px 30px;
     background-color: aquamarine;
 }
+
 .question-2{
     margin-top: 25px;
     margin-bottom: 15px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 10px 30px;
     background-color:aqua;
 }
+
 .question-3{
     margin-top: 25px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px 10px 30px;
     background-color:bisque;
+}
+
+.answer{
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
 }

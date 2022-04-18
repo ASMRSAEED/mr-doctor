@@ -52,7 +52,7 @@ const Register = () => {
             >
               <div className="text-center">
                 <img
-                  src="https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295397__340.png"
+                  src="https://i.ibb.co/vBhp8zQ/loginlogo.png"
                   className="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
                   width="200px"
                   alt="profile"
@@ -99,12 +99,12 @@ const Register = () => {
 
               <div className="text-center">
                 <button type="submit" className="btn btn-color px-5  w-100">
-                  Register
+                  SIGN UP
                 </button>
               </div>
               <div className="text-center mt-2 m-0 mb-5 p-0 d-flex justify-content-center align-items-center">
                 <div className="signup">
-                  <Link to="/login">Already have an account?</Link>
+                  <p>Already have an account?<Link to="/login">PLEASE LOGIN</Link></p>
                 </div>
               </div>
             </form>

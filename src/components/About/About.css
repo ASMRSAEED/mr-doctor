@@ -1,16 +1,28 @@
-.goal {
-    padding-top: 150px;
-
-}
-
 .about {
     width: 90%;
     margin: auto;
     height: 100vh;
 }
 
+.future-plan {
+    margin-top: 200px;
+}
+
+.about h1 {
+    color:darkgreen;
+    text-align: center;
+}
+
+.plan-details {
+    color:green;
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: left;
+}
+
 .about img {
-    margin-left: 50px;
+    border-radius: 25px;
+    margin-left: 70px;
     height: 75%;
     width: 2px;
 }

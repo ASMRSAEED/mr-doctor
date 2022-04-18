@@ -5,9 +5,9 @@ const About = () => {
     return (
         <div>
             <div className="row about ">
-                <div className="col-lg-6   goal">
-                    <h3>My Goal</h3>
-                    <p className=''>"One of my life goals is to gain valuable industry knowledge and experience. As this is an entry-level position, I hope to work for the company to gain new skills and develop an idea of how I can contribute to the organization." "One of my life goals is to serve as a role model for those I'm managing.</p>
+                <div className="col-lg-6 future-plan">
+                    <h1><u>MY FUTURE PLAN</u></h1>
+                    <p className='plan-details'><b>I am an entry-level Web developer and still learning new technology every day. My future goal is to become an expert in the web development sector and learn new technology and language day by day. This year I will only focus on my learning web development. Towards the end of this year, I will try to get a job in tech companies outside the country. I want to work at a prestigious tech company. Also, I have a lot of desire to work with Programming Hero.</b></p>
 
                 </div>
                 <div className="col-lg-6">
