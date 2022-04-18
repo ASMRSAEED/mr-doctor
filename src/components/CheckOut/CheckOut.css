@@ -1,0 +1,12 @@
+.all-image{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr)  ;
+    align-items: center;
+    grid-gap: 30px;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+}
+.all-image div img{
+    height: 400px;
+}
