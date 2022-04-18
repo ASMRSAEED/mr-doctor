@@ -12,6 +12,8 @@ const Header = () => {
   const handleSignOut = () => {
     signOut(auth);
   };
+
+
   return (
     <div>
       <header className="nav-bar bg-secondary  border py-1">

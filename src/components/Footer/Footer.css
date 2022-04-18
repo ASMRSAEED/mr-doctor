@@ -13,14 +13,13 @@ footer {
     font-size: 20px;
 }
 
-
-
 @media only screen and (max-width: 460px) {
 
-    .address h2{
+    .address h2 {
         text-align: center;
     }
-    .address h3{
+
+    .address h3 {
         margin-left: 35px;
         text-align: center;
     }

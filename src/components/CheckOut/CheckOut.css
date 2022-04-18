@@ -1,21 +1,20 @@
-.all-image{
+.all-image {
     display: grid;
-    grid-template-columns:repeat(3, 1fr)  ;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     grid-gap: 30px;
     width: 90%;
     margin: auto;
 }
 
-.booking-text{
+.booking-text {
     text-align: center;
 }
 
-.doctor-img{
+.doctor-img {
     border-radius: 25px;
 }
 
-.all-image div img{
+.all-image div img {
     height: 400px;
 }
-

@@ -44,11 +44,6 @@
 
 }
 
-
-
-
-
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -58,7 +53,6 @@ code {
   position: relative;
   width: 295px;
 }
-
 
 .pwd-container img {
   cursor: pointer;

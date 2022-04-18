@@ -66,7 +66,6 @@ const Login = () => {
     errorElement = <p className='text-danger'>Error: {error?.message} {googleError?.message}  {facebookError?.message}  {githubError?.message}  {forgotError?.message}</p>
 
   }
-  // {errorElement}
 
   return (
     <div className="container  ">

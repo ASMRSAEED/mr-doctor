@@ -9,12 +9,12 @@
 }
 
 .about h1 {
-    color:darkgreen;
+    color: darkgreen;
     text-align: center;
 }
 
 .plan-details {
-    color:green;
+    color: green;
     margin-top: 35px;
     font-size: 20px;
     text-align: left;
@@ -23,6 +23,6 @@
 .about img {
     border-radius: 25px;
     margin-left: 70px;
-    height: 75%;
+    height: 80%;
     width: 2px;
 }

@@ -1,7 +1,6 @@
 .btn-color {
   background-color: blue;
   color: #fff;
-
 }
 
 .anchor {
@@ -85,11 +84,11 @@ code {
 
 .social-text {
   text-align: center;
-  color:brown;
+  color: brown;
   font-size: 25px;
   font-weight: 600;
 }
 
-.social-site-logIn{
+.social-site-logIn {
   text-align: center;
 }

@@ -1,15 +1,10 @@
-/** @format */
-
 import React, { useState } from "react";
 import "./Register.css";
 import showPwdImg from "./show-password.svg";
 import hidePwdImg from "./hide-password.svg";
-
 import { Link, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init"
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
-
-// import { useSendEmailVerification } from 'react-firebase-hooks/auth';
 import { useUpdateProfile } from "react-firebase-hooks/auth";
 import Loading from "../Loading/Loading";
 
@@ -20,10 +15,10 @@ const Register = () => {
 
   const [createUserWithEmailAndPassword, user, loading, error] =
     useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
-  
+
 
   const [updateProfile, updating, updateError] = useUpdateProfile(auth);
-  if(loading|| updating){
+  if (loading || updating) {
     return <Loading></Loading>
   }
 
@@ -34,13 +29,15 @@ const Register = () => {
     const email = event.target.email.value;
     const password = event.target.pwd.value;
     await createUserWithEmailAndPassword(email, password);
- 
+
     await updateProfile({ displayName: name });
   };
 
   if (user) {
     navigate("/");
   }
+
+
   return (
     <div className="container">
       <div className="row">
@@ -93,10 +90,9 @@ const Register = () => {
                 <img
                   title={isRevealPwd ? "Hide password" : "Show password"}
                   src={isRevealPwd ? hidePwdImg : showPwdImg}
-                  onClick={() => setIsRevealPwd((prevState) => !prevState)}
+                  onClick={() => setIsRevealPwd((prevState) => !prevState)} alt=""
                 />
               </div>
-
               <div className="text-center">
                 <button type="submit" className="btn btn-color px-5  w-100">
                   SIGN UP
