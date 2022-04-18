@@ -21,7 +21,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-light  mx-4">
           <div className="container-fluid">
             <CustomLink className="navbar-brand " to='/logo'>
-              <img src="https://i.ibb.co/VLgny0h/download-1.png" className="header-image" alt="" />
+              <img src="https://i.ibb.co/Lk6P0gD/logo.png" className="header-image" alt="" />
             </CustomLink>
             <button
               className="navbar-toggler"
@@ -49,7 +49,7 @@ const Header = () => {
                   ABOUT
                 </CustomLink>
                 <CustomLink className="nav-link mx-3 p-1" to='/blog'>BLOG</CustomLink>
-                {user ? <button className="border-0 bg-secondary fs-5 mx-3 p-1 text-white" onClick={handleSignOut}>SIGN OUT</button> : <CustomLink className="nav-link mx-3 p-1" to='/login'>
+                {user ? <button id="btn" className="border-0 bg-secondary fs-5 p-1 text-white" onClick={handleSignOut}>SIGN OUT</button> : <CustomLink className="nav-link mx-3 p-1" to='/login'>
                   SIGN IN
                 </CustomLink>
 

@@ -1,8 +1,13 @@
-.header-image{
-    margin-left: 100px;
-    height: 85px;
-    width: 100px;
+.header-image {
+    margin-left: 50px;
+    height: 70px;
+    width: 150px;
 }
-a{
+
+#btn{
+    margin-right: 115px;
+}
+
+a {
     font-size: 20px;
 }

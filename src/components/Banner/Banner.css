@@ -4,6 +4,12 @@
   font-size: 25px;
 }
 
+h1{
+  text-align: left;
+  margin-left: 5px;
+}
+
 .details {
-  text-align: center;
+  text-align: left;
+  margin-left: 60px;
 }
