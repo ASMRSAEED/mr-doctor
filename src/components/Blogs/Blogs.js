@@ -3,9 +3,9 @@ import './Blogs.css'
 
 const Blogs = () => {
   return (
-    <div style={{ width: "90%", margin: "auto" }}>
+    <div className='questions' style={{ width: "90%", margin: "auto" }}>
 
-      <h5 className="fw-bold text-start pt-4">
+      <h5 className="question-1 fw-bold text-start pt-4">
         {" "}
         1.Difference Between Authentication and Authorization:
       </h5>
@@ -64,8 +64,25 @@ const Blogs = () => {
 
       </div>
 
-      <h5 className="fw-bold text-start pt-4">
-        2.What other services does firebase provide other than authentication:
+      <h5 className="question-3 fw-bold text-start pt-4">
+        2.Why are you using firebase? What other options do you have to implement authentication?
+      </h5>
+      <p className=" text-start ">
+        we use firabse because firebase authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.
+      </p>
+      <p className="text-start fw-bold " style={{ textDecoration: "underLine" }} >I implement authentication without firebase by these below options </p>
+      <ul className="text-start">
+        <li>Auth0. A set of unified APIs and tools that instantly enables Single Sign On and user management to all your applications. ...</li>
+        <li>MongoDB. MongoDB stores data in JSON-like documents that can vary in structure, offering. ...</li>
+        <li>Passport. ...</li>
+        <li>Okta. ...</li>
+        <li>Amazon Cognito. ...</li>
+        <li>Keycloak. ...</li>
+        <li>OAuth2.</li>
+      </ul>
+
+      <h5 className="question-2 fw-bold text-start pt-4">
+        3.What other services does firebase provide other than authentication:
       </h5>
       <p className='text-start fw-bold' style={{ textDecoration: "underLine" }}>
         There are many services which provides Firebase without authentication  Most useful of them are:
@@ -84,22 +101,7 @@ const Blogs = () => {
         </ul>
       </p>
 
-      <h5 className="fw-bold text-start pt-4">
-        3.Why are you using firebase? What other options do you have to implement authentication?
-      </h5>
-      <p className=" text-start ">
-        we use firabse because firebase authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.
-      </p>
-      <p className="text-start fw-bold " style={{ textDecoration: "underLine" }} >I implement authentication without firebase by these below options </p>
-      <ul className="text-start">
-        <li>Auth0. A set of unified APIs and tools that instantly enables Single Sign On and user management to all your applications. ...</li>
-        <li>MongoDB. MongoDB stores data in JSON-like documents that can vary in structure, offering. ...</li>
-        <li>Passport. ...</li>
-        <li>Okta. ...</li>
-        <li>Amazon Cognito. ...</li>
-        <li>Keycloak. ...</li>
-        <li>OAuth2.</li>
-      </ul>
+
     </div>
   );
 };
