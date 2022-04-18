@@ -1,5 +1,3 @@
-/** @format */
-
 import React from "react";
 import './Header.css'
 import { useAuthState } from "react-firebase-hooks/auth";

@@ -11,7 +11,7 @@ const About = () => {
 
                 </div>
                 <div className="col-lg-6">
-                    <img className='w-75 pt-5' src="https://i.ibb.co/qn9LZ4R/doctor1.png" alt="" />
+                    <img className='w-75 pt-5' src="https://i.ibb.co/F32JG4z/my-pic.png" alt="" />
                 </div>
             </div>
         </div>

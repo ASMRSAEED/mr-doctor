@@ -38,7 +38,7 @@ const Login = () => {
 
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
-console.log(error)
+  console.log(error)
   const [signInWithGoogle, googleUser, googleLoading, googleError] =
     useSignInWithGoogle(auth);
   const [signInWithFacebook, facebookUser, facebookLoading, facebookError] =
@@ -60,15 +60,15 @@ console.log(error)
     navigate(from, { replace: true });
   }
 
-  if(loading||googleLoading||facebookLoading||githubLoading){
+  if (loading || googleLoading || facebookLoading || githubLoading) {
     return <Loading></Loading>
   }
-   let errorElement;
-   if (error ||googleError||facebookError||githubError|| forgotError) {
-    errorElement = <p className='text-danger'>Error: {error?.message} {googleError?.message}  {facebookError?.message}  {githubError?.message}  { forgotError?.message}</p>
-   
-}
-// {errorElement}
+  let errorElement;
+  if (error || googleError || facebookError || githubError || forgotError) {
+    errorElement = <p className='text-danger'>Error: {error?.message} {googleError?.message}  {facebookError?.message}  {githubError?.message}  {forgotError?.message}</p>
+
+  }
+  // {errorElement}
 
   return (
     <div className="container  ">
@@ -118,10 +118,10 @@ console.log(error)
                   onClick={() => setIsRevealPwd((prevState) => !prevState)}
                 />
               </div>
-                
-          {
-            errorElement
-            }
+
+              {
+                errorElement
+              }
               <div className="text-center">
                 <button type="submit" className="btn btn-color px-5  w-100">
                   Login
@@ -132,11 +132,11 @@ console.log(error)
                 <button
                   className="btn "
                   onClick={async () => {
-                    if(email){
+                    if (email) {
                       await sendPasswordResetEmail(email);
-                    toast("Sent email");
+                      toast("Sent email");
                     }
-                    else{
+                    else {
                       toast("pls enter your email address")
                     }
                   }}

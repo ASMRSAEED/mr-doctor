@@ -8,3 +8,9 @@
     margin: auto;
     height: 100vh;
 }
+
+.about img {
+    margin-left: 50px;
+    height: 75%;
+    width: 2px;
+}
